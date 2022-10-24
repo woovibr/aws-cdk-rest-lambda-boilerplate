@@ -1,0 +1,36 @@
+{
+  "name": "aws-cdk-rest-lambda-boilerplate",
+  "version": "0.1.0",
+  "bin": {
+    "aws-cdk-rest-lambda-boilerplate": "bin/aws-cdk-rest-lambda-boilerplate.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.108",
+    "@types/jest": "^27.5.2",
+    "@types/node": "10.17.27",
+    "@types/prettier": "2.6.0",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "aws-cdk": "2.47.0",
+    "aws-lambda": "^1.0.7",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^27.5.1",
+    "prettier": "^2.7.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.9.1",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.47.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  }
+}

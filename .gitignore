@@ -1,0 +1,16 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# osx stuffs
+.DS_Store
